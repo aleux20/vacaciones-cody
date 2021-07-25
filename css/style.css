@@ -3,11 +3,26 @@ nav{
   padding: 15px;
   display: flex;
   gap:1em;
+  justify-content: space-between;
+  height: 100%;
+}
+
+h1, h2 {
+  text-align: center;
+  border: solid 2px #005ce6;
+}
+
+p {
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: #e6005c;
+  cursor: pointer;
 }
 
 main{
-  text-align: center;
-  max-width: 960px;
   margin:0 auto;
 }
 
@@ -16,11 +31,13 @@ section{
 }
 
 .cursos div{
-  background-color: black;
-  color: white;
-  max-width: 200px;
+  border-radius: 15px;
+  background-color: #00e673;
+  box-shadow: -7px 9px 7px blue;
+  color: black;
   display: inline-block;
-  box-shadow: 5px 5px 10px black;
+  max-width: 215px;
+  margin-right: 25px;
 }
 .fotos img{
   max-width: 450px;
