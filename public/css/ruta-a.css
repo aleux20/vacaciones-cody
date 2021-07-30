@@ -1,0 +1,60 @@
+#ruta-aprendizaje {
+	background: #07142c;
+	color: white;
+}
+.ruta-aprendizaje .icon-box {
+	text-align: center;
+	transition: all ease-in-out 0.3s;
+	box-shadow: 0px 2px 15px #097146;
+	cursor: pointer;
+}
+
+.ruta-aprendizaje .icon-box .icon {
+	margin: 0 auto;
+	width: 64px;
+	height: 64px;
+	background: transparent;
+	transition: all 0.3s ease-out 0s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+	transform-style: preserve-3d;
+}
+
+.ruta-aprendizaje .icon-box .icon i {
+	color: #fff;
+	font-size: 28px;
+}
+
+.ruta-aprendizaje .icon-box .icon::before {
+	position: absolute;
+	content: "";
+	left: -8px;
+	top: -8px;
+	height: 100%;
+	width: 100%;
+	background: transparent;
+	transition: all 0.3s ease-out 0s;
+	transform: translateZ(-1px);
+}
+
+.ruta-aprendizaje .icon-box h4 {
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+
+.ruta-aprendizaje .icon-box h4 a {
+	color: whitesmoke;
+}
+
+.ruta-aprendizaje .icon-box p {
+	line-height: 24px;
+	font-size: 14px;
+}
+
+.ruta-aprendizaje .icon-box:hover {
+	background: #103a4e;
+	border-color: #103a4e;
+}

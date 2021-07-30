@@ -1,0 +1,16 @@
+.importancia-vacaciones {
+	background: linear-gradient(rgba(12, 25, 82, 0.897), rgba(45, 97, 105, 0.897));
+	padding: 0;
+}
+.importancia-vacaciones h1,
+.importancia-vacaciones h2 {
+	color: #ffffff;
+	font-weight: 900;
+}
+.importancia-vacaciones p {
+	color: #000000;
+	font-weight: 900;
+}
+.importancia-vacaciones ol li {
+	color: #000000;
+}
