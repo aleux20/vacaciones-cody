@@ -1,22 +1,12 @@
-#hero {
+#home {
 	width: 100%;
-	height: calc(100vh - 110px);
-	background: #ba9912;
+	height: calc(125vh - 30px);
+	background: #0e174e;
 	background-size: cover;
 	position: relative;
 }
 
-#hero:before {
-	content: "";
-	background: #ba9912;
-	position: absolute;
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-}
-
-#hero h1 {
+#home h1 {
 	margin: 0 0 10px 0;
 	font-size: 48px;
 	font-weight: 700;
@@ -25,46 +15,22 @@
 	color: #fff;
 }
 
-#hero h2 {
+#home h2 {
 	color: #eee;
 	margin-bottom: 30px;
-	font-size: 24px;
+	font-size: 90px;
 }
 
-#hero .btn-get-started {
+#home p {
 	font-size: 35px;
-	transition: 0.5s;
-	color: #e04f5f;
-	height: 70px;
-	display: block;
-	z-index: 2;
-	-webkit-animation: pulse 2s infinite;
-	animation: pulse 2s infinite;
-	margin-top: 5rem;
-}
-
-#hero .btn-get-started:hover {
-	color: #e04f5f;
-}
-#hero .btn-get-started .fa-arrow-down {
-	padding-top: 10px;
-	-webkit-animation: pulse 2s infinite;
-	animation: pulse 2s infinite;
-}
-#hero .textScramble {
-	font-weight: 100;
-	font-size: 50px;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	color: #fafafa;
+	color: #4fd886;
 }
 
 @media (min-width: 1024px) {
-	#hero {
+	#home {
 		background-attachment: fixed;
 	}
-	#hero .textScramble {
+	#home .textScramble {
 		display: flex;
 		position: fixed;
 		font-size: 50px;
@@ -74,22 +40,22 @@
 }
 
 @media (max-width: 768px) {
-	#hero {
+	#home {
 		text-align: center;
 	}
-	#hero .container {
+	#home .container {
 		padding-top: 40px;
 	}
-	#hero h1 {
+	#home h1 {
 		font-size: 28px;
 		line-height: 36px;
 	}
-	#hero h2 {
+	#home h2 {
 		font-size: 18px;
 		line-height: 24px;
 		margin-bottom: 30px;
 	}
-	#hero .textScramble {
+	#home .textScramble {
 		display: flex;
 		font-size: 20px;
 		justify-content: center;
